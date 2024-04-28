@@ -139,7 +139,7 @@ app.put("/updateItem/:id", async (req, res) => {
 
 
 app.listen(port, () => {
-console.log("App listening at http://%s:%s", host, port);
+    console.log("App listening at http://%s:%s", host, port);
 });
 
 
